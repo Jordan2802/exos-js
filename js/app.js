@@ -125,8 +125,7 @@ function toggle(inter, op) {
 
 
 //exos10
-
-
+/*
 var para = document.createElement('p');
 var text = document.createTextNode('salut');
 para.appendChild(text);
@@ -139,3 +138,4 @@ paraBis.appendChild(textBis);
 document.body.appendChild(paraBis);
 paraBis.style.border = '1px solid black';
 paraBis.style.textAlign = 'center';
+*/
