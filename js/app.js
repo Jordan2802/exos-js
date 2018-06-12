@@ -74,3 +74,26 @@ monDiv[2].style.float = "left";
 var image = document.getElementById("image");
 var srcImage = image.getAttribute('src');
 console.log(srcImage);
+
+function toggle(img) {
+   img.setAttribute('src', 'img/brigitte.png');
+   fadeIn()
+}
+
+function fadeIn(inter, op) {
+  image.setAttribute("style", "opacity:0;")
+  var inter = setInterval(time, 300);
+  var op = 0.0
+
+    function time(){
+      if (op >= 1.0) {
+        clearInterval(inter);
+
+      }else {
+        op += 0.1;
+        image.style.opacity= op;
+
+      };
+
+    };
+  }

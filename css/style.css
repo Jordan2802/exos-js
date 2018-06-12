@@ -8,3 +8,8 @@ div{
 	color:red;
 }
 */
+
+.transi{
+  transition: 1s;
+  opacity: 0;
+}
