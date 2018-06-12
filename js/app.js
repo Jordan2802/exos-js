@@ -71,6 +71,7 @@ monDiv[2].style.float = "left";
 */
 
 //exos 8
+/*
 var image = document.getElementById("image");
 var srcImage = image.getAttribute('src');
 console.log(srcImage);
@@ -88,12 +89,53 @@ function fadeIn(inter, op) {
     function time(){
       if (op >= 1.0) {
         clearInterval(inter);
-
       }else {
         op += 0.1;
         image.style.opacity= op;
-
       };
-
     };
   }
+*/
+
+//exos 9
+/*
+var titre = document.querySelector("h1");
+titre.onmouseover = function(){
+	this.style.color = "red";
+  this.style.width = "100px";
+  this.style.marginLeft = "47%";
+};
+titre.onmouseout = function(){
+	this.style.color = "inherit";
+};
+function toggle(inter, op) {
+  titre.setAttribute("style", "opacity:0;")
+  var inter = setInterval(time, 300);
+  var op = 0.0
+
+    function time(){
+      if (op >= 1.0) {
+        clearInterval(inter);
+      }else {
+        op += 0.1;
+        titre.style.opacity= op;
+      };
+    };
+  }*/
+
+
+//exos10
+
+
+var para = document.createElement('p');
+var text = document.createTextNode('salut');
+para.appendChild(text);
+document.body.appendChild(para);
+para.style.color = 'blue';
+
+var paraBis = document.createElement('p');
+var textBis = document.createTextNode('heyyyyyyyyyyy');
+paraBis.appendChild(textBis);
+document.body.appendChild(paraBis);
+paraBis.style.border = '1px solid black';
+paraBis.style.textAlign = 'center';
