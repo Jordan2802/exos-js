@@ -65,3 +65,11 @@ testQuatre(3,5);
  }
 
  testSept(12, "femme");
+
+ //exos 8
+
+
+function add(nbr1, nbr2 ,nbr3) {
+  return nbr1+nbr2+nbr3;
+}
+console.log(add(2,8,6));
