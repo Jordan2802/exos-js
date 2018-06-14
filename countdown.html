@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>compte à rebours</title>
+  </head>
+  <body>
+    <form name="timer">
+    <input type="text" size="3" name="h"> heures
+    <input type="text" size="3" name="m"> minutes
+    <input type="text" size="3" name="s"> secondes
+
+
+    <input type="button" value="Go" onclick="chrono()">
+    <input type="button" value="RaZ" onclick="rasee()">
+    <input type="button" value="Pause" onclick="clearTimeout(compte)">
+
+    </form>
+
+
+
+    <script type="text/javascript" src="js/countdown.js"></script>
+  </body>
+</html>
